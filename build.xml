@@ -10,6 +10,6 @@
 		<javac includeantruntime="false" srcdir="src/com/psl/demo"/>
 	</target>
 	<target name="compress">
-		<jar jarfile="antDemo1.jar" basedir="src/com/psl/demo" includes="*.class"></jar>
+		<jar jarfile="antDemo1.jar" basedir="bin/com/psl/demo" includes="*.class"></jar>
 	</target>
 </project>
